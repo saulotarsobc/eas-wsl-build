@@ -32,10 +32,7 @@ npm -v;
 sudo apt install openjdk-17-jdk -y;
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64;
 source ~/.bashrc;
-java --version
-
-# sudo apt install gradle -y;
-# gradle --version
+java --version;
 ```
 
 
@@ -110,16 +107,6 @@ eas build:configure;
         "buildType": "apk"
     }
 }
-```
-
-```sh
-# npx expo prebuild;
-# cat android/build.gradle | grep targetSdkVersion;
-    # > targetSdkVersion = Integer.parseInt(findProperty('android.targetSdkVersion') ?: '33') // < v33
-# cat android/build.gradle | grep buildToolsVersion;
-    # > buildToolsVersion = findProperty('android.buildToolsVersion') ?: '33.0.0'  // < v33.0.0
-
-# sdkmanager "platforms;android-33" "build-tools;33.0.0";
 ```
 
 ## Realizando a construção local
