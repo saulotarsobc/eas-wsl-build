@@ -101,12 +101,14 @@ eas build:configure;
 > Adicione o perfil `apk` no eas.json no campo `build`. É o que vamos usar para os testes.
 
 ```json
+...
 "apk": {
     "channel": "preview",
       "android": {
         "buildType": "apk"
     }
 }
+...
 ```
 
 ## Realizando a construção local
@@ -123,3 +125,7 @@ export EAS_BUILD_WORKER_DIR=$(pwd)/builder/EAS_BUILD_WORKER_DIR
 eas build -p android -e apk --local;
 eas build -p android -e production --local;
 ```
+
+## Extras
+
+- [sdkmanager](./sdkmanager.md)
