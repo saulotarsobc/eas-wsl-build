@@ -111,20 +111,48 @@ eas build:configure;
 ...
 ```
 
-## Realizando a construção local
-
-> Antes do comando configure as variáveis de ambiente a seguir.
+## Variáveis de Ambiente para Construção Local do EAS
 
 ```sh
 export EAS_LOCAL_BUILD_SKIP_CLEANUP=0
 export EAS_LOCAL_BUILD_ARTIFACTS_DIR=$(pwd)/builder/EAS_LOCAL_BUILD_ARTIFACTS_DIR
 export EAS_LOCAL_BUILD_WORKINGDIR=$(pwd)/builder/EAS_LOCAL_BUILD_WORKINGDIR
 export EAS_BUILD_WORKER_DIR=$(pwd)/builder/EAS_BUILD_WORKER_DIR
-
-# build...
-eas build -p android -e apk --local;
-eas build -p android -e production --local;
 ```
+
+Essas variáveis de ambiente são usadas em um ambiente de construção local do EAS (Expo Application Services). Aqui está uma explicação de cada uma:
+
+Essas variáveis de ambiente estão sendo definidas com base no diretório atual ($(pwd)) para fornecer caminhos absolutos para diferentes diretórios relacionados à compilação local do EAS (Expo Application Services). Aqui está o significado de cada uma delas:
+
+- `EAS_LOCAL_BUILD_SKIP_CLEANUP=0`: Define se o processo de limpeza será executado após a compilação. Se definido como `0`, o cleanup será executado. Se definido como qualquer outro valor, o cleanup será pulado. Isso pode ser útil para depuração ou para evitar a exclusão de certos arquivos após a compilação.
+
+- `EAS_LOCAL_BUILD_ARTIFACTS_DIR=$(pwd)/builder/EAS_LOCAL_BUILD_ARTIFACTS_DIR`: Especifica o diretório onde os artefatos da compilação serão armazenados. O caminho absoluto é construído concatenando o diretório atual (`$(pwd)`) com o diretório `builder/EAS_LOCAL_BUILD_ARTIFACTS_DIR`.
+
+- `EAS_LOCAL_BUILD_WORKINGDIR=$(pwd)/builder/EAS_LOCAL_BUILD_WORKINGDIR`: Define o diretório de trabalho para o processo de compilação local. Da mesma forma, é construído usando o diretório atual (`$(pwd)`) e o diretório `builder/EAS_LOCAL_BUILD_WORKINGDIR`.
+
+- `EAS_BUILD_WORKER_DIR=$(pwd)/builder/EAS_BUILD_WORKER_DIR`: Especifica o diretório onde os workers (trabalhadores) do EAS Build serão executados. Novamente, é construído usando o diretório atual (`$(pwd)`) e o diretório `builder/EAS_BUILD_WORKER_DIR`.
+
+Usar o `$(pwd)` garante que esses caminhos sejam absolutos e independentes do diretório de onde os comandos são executados. Isso pode ser útil para garantir consistência e evitar problemas relacionados a diretórios relativos.
+
+Essas variáveis são úteis para controlar e personalizar o processo de construção local de aplicativos Expo. Elas podem ser definidas no seu ambiente de desenvolvimento ou em scripts de automação para garantir uma compilação consistente e controlada do aplicativo.
+
+
+
+## Comandos EAS Build para Compilação Local de Aplicativos Android
+
+Aqui estão dois comandos `eas build` para compilar aplicativos Android localmente usando o EAS (Expo Application Services):
+
+### Compilação para APK de Desenvolvimento Local
+
+```sh
+eas build -p apk -e apk --local
+```
+
+#### Patametros
+
+- `-p android`: Novamente, especifica que o aplicativo é destinado à plataforma Android.
+- `-e apk`: Indica que a compilação será para um arquivo APK (Android Package) de desenvolvimento.
+- `--local`: Como antes, indica que a compilação será executada localmente.
 
 ## Extras
 
