@@ -145,7 +145,7 @@ Aqui estão dois comandos `eas build` para compilar aplicativos Android localmen
 ### Compilação para APK de Desenvolvimento Local
 
 ```sh
-eas build -p apk -e apk --local
+eas build -p android -e apk --local
 ```
 
 #### Patametros
