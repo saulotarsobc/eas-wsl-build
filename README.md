@@ -30,7 +30,8 @@ npm -v;
 ## Instalando Java e Gradle
 ```sh
 sudo apt install openjdk-17-jdk -y;
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64;
+echo -e '\n\n# java' >> ~/.bashrc
+echo 'export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"' >> ~/.bashrc;
 source ~/.bashrc;
 java --version;
 ```
@@ -46,10 +47,10 @@ unzip -q -d android/cmdline-tools /tmp/cmd-tools.zip;
 mv android/cmdline-tools/cmdline-tools android/cmdline-tools/latest;
 rm /tmp/cmd-tools.zip;
 
-echo '# android' >> ~/.bashrc
-echo 'export ANDROID_HOME=$HOME/android' >> ~/.bashrc
-echo 'export ANDROID_SDK_ROOT=${ANDROID_HOME}' >> ~/.bashrc
-echo 'export PATH=${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${PATH}' >> ~/.bashrc
+echo -e '\n\n# android' >> ~/.bashrc
+echo 'export ANDROID_HOME="$HOME/android"' >> ~/.bashrc
+echo 'export ANDROID_SDK_ROOT="$ANDROID_HOME"' >> ~/.bashrc
+echo 'export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc;
 
 sdkmanager --version; # test
@@ -66,7 +67,8 @@ curl https://dl.google.com/android/repository/android-ndk-r26d-linux.zip  -o /tm
 mkdir -p android/ndk;
 unzip -q -d android/ndk /tmp/ndk.zip;
 rm /tmp/ndk.zip;
-echo 'export ANDROID_NDK_HOME="$HOME/android/ndk/android-ndk-r26d' >> ~/.bashrc
+echo -e '\n\n# ndk' >> ~/.bashrc
+echo 'export ANDROID_NDK_HOME=$HOME/android/ndk/android-ndk-r26d' >> ~/.bashrc
 source ~/.bashrc
 $ANDROID_NDK_HOME/ndk-build --version; # test
 ```
@@ -105,11 +107,10 @@ eas build:configure;
 ...
 "apk": {
     "channel": "preview",
-      "android": {
+    "android": {
         "buildType": "apk"
-    }
+        }
 }
-...
 ```
 
 ## Variáveis de Ambiente para Construção Local do EAS
