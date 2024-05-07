@@ -66,7 +66,7 @@ curl https://dl.google.com/android/repository/android-ndk-r26d-linux.zip  -o /tm
 mkdir -p android/ndk;
 unzip -q -d android/ndk /tmp/ndk.zip;
 rm /tmp/ndk.zip;
-export ANDROID_NDK_HOME="$HOME/android/ndk/android-ndk-r26d" # pode add no .bashrc > nano ~/.bashrc
+echo 'export ANDROID_NDK_HOME="$HOME/android/ndk/android-ndk-r26d' >> ~/.bashrc
 source ~/.bashrc
 $ANDROID_NDK_HOME/ndk-build --version; # test
 ```
