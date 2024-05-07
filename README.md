@@ -50,11 +50,13 @@ rm /tmp/cmd-tools.zip;
 echo -e '\n\n# android' >> ~/.bashrc
 echo 'export ANDROID_HOME="$HOME/android"' >> ~/.bashrc
 echo 'export ANDROID_SDK_ROOT="$ANDROID_HOME"' >> ~/.bashrc
-echo 'export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH' >> ~/.bashrc
+echo 'export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc;
 
 sdkmanager --version; # test
+
 sdkmanager --list;
+
 yes | sdkmanager --licenses;
 
 sdkmanager --update;
@@ -67,9 +69,11 @@ curl https://dl.google.com/android/repository/android-ndk-r26d-linux.zip  -o /tm
 mkdir -p android/ndk;
 unzip -q -d android/ndk /tmp/ndk.zip;
 rm /tmp/ndk.zip;
+
 echo -e '\n\n# ndk' >> ~/.bashrc
-echo 'export ANDROID_NDK_HOME=$HOME/android/ndk/android-ndk-r26d' >> ~/.bashrc
+echo 'export ANDROID_NDK_HOME="$HOME/android/ndk/android-ndk-r26d"' >> ~/.bashrc
 source ~/.bashrc
+
 $ANDROID_NDK_HOME/ndk-build --version; # test
 ```
 
@@ -83,20 +87,24 @@ bun -v; # test
 ## Instalando EAS CLI (Expo Application Services Command Line Interface)
 ```sh
 npm install -g npm eas-cli sharp-cli node-gyp;
+
 eas login;
     # > ? Email or username › meuUserName@mail.com
     # > ? Password › suAsuperSenh@
     # > Logged in
+
 eas whoami
 ```
 
 ## Configurando um projeto React Native
 ```sh
 npx create-expo-app meu-app --template;
+
 cd meu-app;
 npm install; # se precisar
 npx expo install expo-updates;
 npm start; # para verificar se está tudo funcionando
+
 eas init;
 eas update:configure;
 eas build:configure;
@@ -147,7 +155,7 @@ Aqui estão dois comandos `eas build` para compilar aplicativos Android localmen
 ### Compilação para APK de Desenvolvimento Local
 
 ```sh
-eas build -p android -e apk --local
+eas build -p android -e apk --local;
 ```
 
 #### Patametros
