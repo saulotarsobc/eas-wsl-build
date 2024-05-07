@@ -46,9 +46,10 @@ unzip -q -d android/cmdline-tools /tmp/cmd-tools.zip;
 mv android/cmdline-tools/cmdline-tools android/cmdline-tools/latest;
 rm /tmp/cmd-tools.zip;
 
-export ANDROID_HOME=$HOME/android
-export ANDROID_SDK_ROOT=${ANDROID_HOME}
-export PATH=${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${PATH}
+echo '# android' >> ~/.bashrc
+echo 'export ANDROID_HOME=$HOME/android' >> ~/.bashrc
+echo 'export ANDROID_SDK_ROOT=${ANDROID_HOME}' >> ~/.bashrc
+echo 'export PATH=${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${PATH}' >> ~/.bashrc
 source ~/.bashrc;
 
 sdkmanager --version; # test
