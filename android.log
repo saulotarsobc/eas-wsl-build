@@ -1,0 +1,50 @@
+Wed, 08 May 2024 21:20:42  GMT - Yarn 1.22.19
+Wed, 08 May 2024 21:20:42  GMT - pnpm 8.9.2
+Wed, 08 May 2024 21:20:42  GMT - npm 9.8.1
+Wed, 08 May 2024 21:20:42  GMT - Java 17
+Wed, 08 May 2024 21:20:42  GMT - node-gyp 10.0.1
+Wed, 08 May 2024 21:20:42  GMT Resolved builder image to 'sdk-50'.
+Wed, 08 May 2024 21:20:42  GMT
+Wed, 08 May 2024 21:20:42  GMT Environment secrets:
+Wed, 08 May 2024 21:20:42  GMT   SENTRY_AUTH_TOKEN=********
+Wed, 08 May 2024 21:20:42  GMT
+Wed, 08 May 2024 21:20:42  GMT EAS Build environment variables:
+Wed, 08 May 2024 21:20:42  GMT   SHELL=/bin/sh
+Wed, 08 May 2024 21:20:42  GMT   NVM_INC=/home/expo/.nvm/versions/node/v18.18.0/include/node
+Wed, 08 May 2024 21:20:42  GMT   JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+Wed, 08 May 2024 21:20:42  GMT   PWD=/usr/local/eas-build-worker
+Wed, 08 May 2024 21:20:42  GMT   LOGNAME=expo
+Wed, 08 May 2024 21:20:42  GMT   SYSTEMD_EXEC_PID=818
+Wed, 08 May 2024 21:20:42  GMT   HOME=/home/expo
+Wed, 08 May 2024 21:20:42  GMT   LANG=en_US.UTF-8
+Wed, 08 May 2024 21:20:42  GMT   INVOCATION_ID=******************
+Wed, 08 May 2024 21:20:42  GMT   ANDROID_NDK_HOME=/home/expo/Android/Sdk/ndk/25.1.8937393
+Wed, 08 May 2024 21:20:42  GMT   NVM_DIR=/home/expo/.nvm
+Wed, 08 May 2024 21:20:42  GMT   ANDROID_HOME=/home/expo/Android/Sdk
+Wed, 08 May 2024 21:20:42  GMT   USER=expo
+Wed, 08 May 2024 21:20:42  GMT   SHLVL=0
+Wed, 08 May 2024 21:20:42  GMT   ANDROID_SDK_ROOT=/home/expo/Android/Sdk
+Wed, 08 May 2024 21:20:42  GMT   JOURNAL_STREAM=8:15101
+Wed, 08 May 2024 21:20:42  GMT   PATH=/home/expo/workingdir/bin:/home/expo/.nvm/versions/node/v18.18.0/bin:/opt/bundletool:/home/expo/Android/Sdk/build-tools/29.0.3:/home/expo/Android/Sdk/ndk/25.1.8937393:/home/expo/Android/Sdk/cmdline-tools/tools/bin:/home/expo/Android/Sdk/tools:/home/expo/Android/Sdk/tools/bin:/home/expo/Android/Sdk/platform-tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/expo/.bun/bin
+Wed, 08 May 2024 21:20:42  GMT   NVM_BIN=/home/expo/.nvm/versions/node/v18.18.0/bin
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_WORKER_DIR=/home/expo/eas-build-worker
+Wed, 08 May 2024 21:20:42  GMT   _=/home/expo/.nvm/versions/node/v18.18.0/bin/node
+Wed, 08 May 2024 21:20:42  GMT   CI=1
+Wed, 08 May 2024 21:20:42  GMT   MAESTRO_DRIVER_STARTUP_TIMEOUT=120000
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD=true
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_RUNNER=eas-build
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_PLATFORM=android
+Wed, 08 May 2024 21:20:42  GMT   NPM_CACHE_URL=http://10.4.0.19:4873
+Wed, 08 May 2024 21:20:42  GMT   NVM_NODEJS_ORG_MIRROR=http://10.4.0.203:8081
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_NPM_CACHE_URL=http://10.4.0.19:4873
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_PROFILE=production
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_GIT_COMMIT_HASH=******************
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_ID=******************
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_WORKINGDIR=/home/expo/workingdir/build
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_PROJECT_ID=******************
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_MAVEN_CACHE_URL=http://10.4.0.201:8081
+Wed, 08 May 2024 21:20:42  GMT   GRADLE_OPTS=-Dorg.gradle.jvmargs="-Xmx14g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false
+Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_USERNAME=#################
+Wed, 08 May 2024 21:20:42  GMT   __EAS_BUILD_ENVS_DIR=/home/expo/workingdir/env
+Wed, 08 May 2024 21:20:42  GMT
+Wed, 08 May 2024 21:20:42  GMT Builder is ready, starting build

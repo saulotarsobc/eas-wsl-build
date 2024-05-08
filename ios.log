@@ -1,0 +1,60 @@
+Tue, 30 Apr 2024 03:08:18  Creating new worker instance
+Tue, 30 Apr 2024 03:09:28  M2, 2 cores, 8 GB RAM
+Tue, 30 Apr 2024 03:09:28
+Tue, 30 Apr 2024 03:09:28  Using VM template "macos-ventura-13.6-xcode-15.2" running macOS Ventura 13.6
+Tue, 30 Apr 2024 03:09:28
+Tue, 30 Apr 2024 03:09:28  Installed software:
+Tue, 30 Apr 2024 03:09:28  - Xcode 15.2 (15C500b)
+Tue, 30 Apr 2024 03:09:28  - Node.js 18.18.0
+Tue, 30 Apr 2024 03:09:28  - Bun 1.0.23
+Tue, 30 Apr 2024 03:09:28  - Yarn 1.22.21
+Tue, 30 Apr 2024 03:09:28  - pnpm 8.14.1
+Tue, 30 Apr 2024 03:09:28  - npm 9.8.1
+Tue, 30 Apr 2024 03:09:28  - fastlane 2.219.0
+Tue, 30 Apr 2024 03:09:28  - CocoaPods 1.14.3
+Tue, 30 Apr 2024 03:09:28  - Ruby 2.7
+Tue, 30 Apr 2024 03:09:28  - node-gyp 10.0.1
+Tue, 30 Apr 2024 03:09:28  Resolved builder image to 'sdk-50'.
+Tue, 30 Apr 2024 03:09:28  - Expo CLI 6.3.10
+Tue, 30 Apr 2024 03:09:28
+Tue, 30 Apr 2024 03:09:28  EAS Build environment variables:
+Tue, 30 Apr 2024 03:09:28    GEM_PATH=/Users/expo/.gems/arm64
+Tue, 30 Apr 2024 03:09:28    PATH=/Users/expo/workingdir/bin:/Users/expo/.nvm/versions/node/v18.18.0/bin:/Users/expo/.gems/arm64/bin:/opt/homebrew/opt/ruby@2/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/expo/.bun/bin
+Tue, 30 Apr 2024 03:09:28    FASTLANE_XCODE_LIST_TIMEOUT=30
+Tue, 30 Apr 2024 03:09:28    GEM_HOME=/Users/expo/.gems/arm64
+Tue, 30 Apr 2024 03:09:28    HOME=/Users/expo
+Tue, 30 Apr 2024 03:09:28    XPC_SERVICE_NAME=host.exp.worker
+Tue, 30 Apr 2024 03:09:28    XPC_FLAGS=0x0
+Tue, 30 Apr 2024 03:09:28    LOGNAME=expo
+Tue, 30 Apr 2024 03:09:28    USER=expo
+Tue, 30 Apr 2024 03:09:28    SHELL=/bin/zsh
+Tue, 30 Apr 2024 03:09:28    TMPDIR=/var/folders/3n/ccx2khns0sq9dq7h2bjxcmf40000gn/T/
+Tue, 30 Apr 2024 03:09:28    SHLVL=0
+Tue, 30 Apr 2024 03:09:28    PWD=/usr/local/eas-build-worker
+Tue, 30 Apr 2024 03:09:28    OLDPWD=/usr/local/eas-build-worker
+Tue, 30 Apr 2024 03:09:28    NVM_CD_FLAGS=-q
+Tue, 30 Apr 2024 03:09:28    NVM_DIR=/Users/expo/.nvm
+Tue, 30 Apr 2024 03:09:28    NVM_BIN=/Users/expo/.nvm/versions/node/v18.18.0/bin
+Tue, 30 Apr 2024 03:09:28    NVM_INC=/Users/expo/.nvm/versions/node/v18.18.0/include/node
+Tue, 30 Apr 2024 03:09:28    _=/Users/expo/.nvm/versions/node/v18.18.0/bin/node
+Tue, 30 Apr 2024 03:09:28    __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+Tue, 30 Apr 2024 03:09:28    CI=1
+Tue, 30 Apr 2024 03:09:28    MAESTRO_DRIVER_STARTUP_TIMEOUT=120000
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD=true
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_RUNNER=eas-build
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_PLATFORM=ios
+Tue, 30 Apr 2024 03:09:28    NPM_CACHE_URL=http://10.94.183.70:4873
+Tue, 30 Apr 2024 03:09:28    NVM_NODEJS_ORG_MIRROR=http://10.94.183.70:8081
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_NPM_CACHE_URL=http://10.94.183.70:4873
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_PROFILE=production
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_GIT_COMMIT_HASH=******************
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_ID=******************
+Tue, 30 Apr 2024 03:09:28    LANG=en_US.UTF-8
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_WORKINGDIR=/Users/expo/workingdir/build
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_PROJECT_ID=******************
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_COCOAPODS_CACHE_URL=http://10.94.183.70:9001
+Tue, 30 Apr 2024 03:09:28    GRADLE_OPTS=-Dorg.gradle.jvmargs="-Xmx14g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false
+Tue, 30 Apr 2024 03:09:28    EAS_BUILD_USERNAME=#################
+Tue, 30 Apr 2024 03:09:28    __EAS_BUILD_ENVS_DIR=/Users/expo/workingdir/env
+Tue, 30 Apr 2024 03:09:28
+Tue, 30 Apr 2024 03:09:28  Builder is ready, starting build
