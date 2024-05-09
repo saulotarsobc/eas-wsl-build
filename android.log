@@ -1,9 +1,16 @@
-Wed, 08 May 2024 21:20:42  GMT - Yarn 1.22.19
-Wed, 08 May 2024 21:20:42  GMT - pnpm 8.9.2
-Wed, 08 May 2024 21:20:42  GMT - npm 9.8.1
-Wed, 08 May 2024 21:20:42  GMT - Java 17
-Wed, 08 May 2024 21:20:42  GMT - node-gyp 10.0.1
-Wed, 08 May 2024 21:20:42  GMT Resolved builder image to 'sdk-50'.
+Thu, 09 May 2024 02:54:36  GMT Creating new worker instance
+Thu, 09 May 2024 02:55:17  GMT Intel, 4 vCPUs, 16 GB RAM
+Thu, 09 May 2024 02:55:17  GMT Thu, 09 May 2024 02:55:17 GMT Using image "ubuntu-22.04-jdk-17-ndk-25.1.8937393" based on "ubuntu-2204-jammy-v20220810"
+Thu, 09 May 2024 02:55:17  GMT Thu, 09 May 2024 02:55:17 GMT Installed software:
+Thu, 09 May 2024 02:55:17  GMT - NDK 25.1.8937393
+Thu, 09 May 2024 02:55:17  GMT - Node.js 18.18.0
+Thu, 09 May 2024 02:55:17  GMT - Bun 1.0.14
+Thu, 09 May 2024 02:55:17  GMT - Yarn 1.22.19
+Thu, 09 May 2024 02:55:17  GMT - pnpm 8.9.2
+Thu, 09 May 2024 02:55:17  GMT - npm 9.8.1
+Thu, 09 May 2024 02:55:17  GMT - Java 17
+Thu, 09 May 2024 02:55:17  GMT - node-gyp 10.0.1
+Thu, 09 May 2024 02:55:17  GMT Resolved builder image to 'sdk-50'.
 Wed, 08 May 2024 21:20:42  GMT
 Wed, 08 May 2024 21:20:42  GMT Environment secrets:
 Wed, 08 May 2024 21:20:42  GMT   SENTRY_AUTH_TOKEN=********
@@ -46,5 +53,4 @@ Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_MAVEN_CACHE_URL=http://10.4.0.201:808
 Wed, 08 May 2024 21:20:42  GMT   GRADLE_OPTS=-Dorg.gradle.jvmargs="-Xmx14g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false
 Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_USERNAME=#################
 Wed, 08 May 2024 21:20:42  GMT   __EAS_BUILD_ENVS_DIR=/home/expo/workingdir/env
-Wed, 08 May 2024 21:20:42  GMT
-Wed, 08 May 2024 21:20:42  GMT Builder is ready, starting build
+Wed, 08 May 2024 21:20:42  GMT Wed, 08 May 2024 21:20:42  GMT Builder is ready, starting build

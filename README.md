@@ -22,7 +22,7 @@ export NVM_DIR=~/.nvm;
 source ~/.bashrc;
 
 nvm ls;
-nvm install 20 --lts;
+nvm install v18.18.0;
 node -v;
 npm -v;
 ```
