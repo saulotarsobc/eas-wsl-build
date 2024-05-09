@@ -27,7 +27,7 @@ node -v;
 npm -v;
 ```
 
-## Instalando Java e Gradle
+## Instalando Java
 ```sh
 sudo apt install openjdk-17-jdk -y;
 echo -e '\n\n# java' >> ~/.bashrc
@@ -35,8 +35,6 @@ echo 'export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"' >> ~/.bashrc;
 source ~/.bashrc;
 java --version;
 ```
-
-
 
 ## Instalando Android Command-line Tools
 ```sh
@@ -84,16 +82,19 @@ source ~/.bashrc;
 bun -v; # test
 ```
 
-## Instalando EAS CLI (Expo Application Services Command Line Interface)
+## Instalando EAS CLI (Expo Application Services Command Line Interface) e outras dependências
 ```sh
-npm install -g npm eas-cli sharp-cli node-gyp;
+npm install -g npm@9.8.1 yarn@1.22.19 pnpm@8.9.2 eas-cli sharp-cli node-gyp@10.0.1;
+```
 
+## Logando do EAS CLI
+```sh
 eas login;
     # > ? Email or username › meuUserName@mail.com
     # > ? Password › suAsuperSenh@
     # > Logged in
 
-eas whoami
+eas whoami;
 ```
 
 ## Configurando um projeto React Native

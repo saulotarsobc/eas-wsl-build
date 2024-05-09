@@ -1,7 +1,13 @@
-# version: '3.9'
-
 services:
   eas-builder:
+    container_name: eas-builder
+    image: eas-builder:2.0
     build:
       context: .
-    container_name: eas-builder
+      dockerfile: Dockerfile
+    env_file: eas.env
+    deploy:
+      resources:
+        limits:
+          cpus: "8"
+          memory: "16G"

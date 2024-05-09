@@ -53,4 +53,5 @@ Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_MAVEN_CACHE_URL=http://10.4.0.201:808
 Wed, 08 May 2024 21:20:42  GMT   GRADLE_OPTS=-Dorg.gradle.jvmargs="-Xmx14g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false
 Wed, 08 May 2024 21:20:42  GMT   EAS_BUILD_USERNAME=#################
 Wed, 08 May 2024 21:20:42  GMT   __EAS_BUILD_ENVS_DIR=/home/expo/workingdir/env
-Wed, 08 May 2024 21:20:42  GMT Wed, 08 May 2024 21:20:42  GMT Builder is ready, starting build
+Wed, 08 May 2024 21:20:42  GMT
+Wed, 08 May 2024 21:20:42  GMT Builder is ready, starting build
