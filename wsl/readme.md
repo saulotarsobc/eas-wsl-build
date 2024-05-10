@@ -1,6 +1,11 @@
+- [Home](../)
+
+---
+
+# Configurando EAS num Ambiente WSL
+
 > Este tutorial aborda a configuração de um ambiente de desenvolvimento para aplicativos Android no WSL, incluindo a configuração do Node.js, Java, Gradle, Android NDK, Android Command-line Tools, Bun, EAS CLI e a construção de um projeto React Native localmente. Certifique-se de ajustar as configurações e variáveis de ambiente conforme necessário para o seu ambiente de desenvolvimento.
 
-# Configurando um Ambiente WSL
 
 ## Instalando o Ubuntu no WSL (Windows Subsystem for Linux)
 ```sh

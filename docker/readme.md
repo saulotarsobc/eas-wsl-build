@@ -1,4 +1,8 @@
-# EAS CLI
+- [Home](../)
+
+---
+
+# EAS CLI no Docker
 
 ## Logar a cli no EAS
 - Acesse o [expo.dev](https://expo.dev/settings/access-tokens) e crie um token
