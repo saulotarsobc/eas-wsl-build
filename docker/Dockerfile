@@ -38,7 +38,7 @@ RUN cd app && npm install;
 
 # Rodando build android
 ## Token do eas
-ENV EXPO_TOKEN=KbOnlDUu39Fm0CTme1F73_XyGesccAPczrGiB6u7
+ENV EXPO_TOKEN=#################
 ## Verificando login no eas
 RUN eas whoami;
 ## Build

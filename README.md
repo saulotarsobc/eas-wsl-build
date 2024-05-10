@@ -1,5 +1,5 @@
 - [WSL](./wsl/)
-- [Docker](./docker/)
+- [Docker 🏗️](./docker/)
 
 ---
 
