@@ -1,1 +1,1 @@
-- [Home](../readme.md)
+- [Home](../)
