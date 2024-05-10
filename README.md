@@ -1,5 +1,6 @@
-- [WSL](./wsl/)
-- [Docker 🏗️](./docker/)
+- [x] [WSL](./wsl/readme.md)
+- [ ] [MAC os](./mac/readme.md)
+- [ ] [Docker 🏗️](./docker/readme.md)
 
 ---
 
