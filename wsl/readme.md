@@ -25,7 +25,9 @@ sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | 
 sudo mkdir ~/.nvm/;
 export NVM_DIR=~/.nvm;
 source ~/.bashrc;
+```
 
+```sh
 nvm ls;
 nvm install v18.18.0;
 node -v;
@@ -49,19 +51,29 @@ mkdir -p android/cmdline-tools;
 unzip -q -d android/cmdline-tools /tmp/cmd-tools.zip;
 mv android/cmdline-tools/cmdline-tools android/cmdline-tools/latest;
 rm /tmp/cmd-tools.zip;
+```
 
+```sh
 echo -e '\n\n# android' >> ~/.bashrc
 echo 'export ANDROID_HOME="$HOME/android"' >> ~/.bashrc
 echo 'export ANDROID_SDK_ROOT="$ANDROID_HOME"' >> ~/.bashrc
 echo 'export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc;
+```
 
+```sh
 sdkmanager --version; # test
+```
 
+```sh
 sdkmanager --list;
+```
 
+```sh
 yes | sdkmanager --licenses;
+```
 
+```sh
 sdkmanager --update;
 ```
 
@@ -72,11 +84,15 @@ curl https://dl.google.com/android/repository/android-ndk-r26d-linux.zip  -o /tm
 mkdir -p android/ndk;
 unzip -q -d android/ndk /tmp/ndk.zip;
 rm /tmp/ndk.zip;
+```
 
+```sh
 echo -e '\n\n# ndk' >> ~/.bashrc
 echo 'export ANDROID_NDK_HOME="$HOME/android/ndk/android-ndk-r26d"' >> ~/.bashrc
 source ~/.bashrc
+```
 
+```sh
 $ANDROID_NDK_HOME/ndk-build --version; # test
 ```
 
@@ -95,27 +111,47 @@ npm install -g npm@9.8.1 yarn@1.22.19 pnpm@8.9.2 eas-cli sharp-cli node-gyp@10.0
 ## Logando do EAS CLI
 ```sh
 eas login;
-    # > ? Email or username › meuUserName@mail.com
-    # > ? Password › suAsuperSenh@
-    # > Logged in
+```
 
+```sh
+# > ? Email or username › meuUserName@mail.com
+# > ? Password › suSuperSenh@
+# > Logged in
+```
+
+```sh
 eas whoami;
 ```
 
 ## Configurando um projeto React Native
+
 ```sh
 npx create-expo-app meu-app --template;
-
 cd meu-app;
-npm install; # se precisar
-npx expo install expo-updates;
-npm start; # para verificar se está tudo funcionando
+```
 
+```sh
+npm install;
+npx expo install expo-updates;
+```
+
+```sh
+npm start;
+```
+
+```sh
 eas init;
 eas update:configure;
 eas build:configure;
 ```
-> Adicione o perfil `apk` no eas.json no campo `build`. É o que vamos usar para os testes.
+
+### O comando a seguir vai usar o `eas.dev`(online) para realizar a `build`. Ele é muito imporante para configurar as Keys do do seu app.
+
+```sh
+eas build;
+```
+
+### Adicione o perfil `apk` no eas.json no campo `build`. É o que vamos usar para os testes.
 
 ```json
 ...
@@ -124,7 +160,7 @@ eas build:configure;
     "android": {
         "buildType": "apk"
         }
-}
+    }
 ```
 
 ## Variáveis de Ambiente para Construção Local do EAS
