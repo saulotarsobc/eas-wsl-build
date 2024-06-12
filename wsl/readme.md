@@ -132,7 +132,6 @@ cd meu-app;
 
 ```sh
 npm install;
-npx expo install expo-updates;
 ```
 
 ```sh
