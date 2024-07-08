@@ -30,6 +30,7 @@ source ~/.bashrc;
 ```sh
 nvm ls;
 nvm install v18.18.0;
+nvm use v18.18.0
 node -v;
 npm -v;
 ```
