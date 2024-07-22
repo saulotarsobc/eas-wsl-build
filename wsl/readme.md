@@ -106,7 +106,7 @@ bun -v; # test
 
 ## Instalando EAS CLI (Expo Application Services Command Line Interface) e outras dependências
 ```sh
-npm install -g npm@9.8.1 yarn@1.22.21 pnpm@9.3.0 eas-cli sharp-cli node-gyp@10.0.1;
+npm install -g npm@9.8.1 yarn@1.22.21 pnpm@9.3.0 eas-cli sharp-cli node-gyp@10.1.0;
 ```
 
 ## Logando do EAS CLI
