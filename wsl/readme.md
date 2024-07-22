@@ -99,7 +99,7 @@ $ANDROID_NDK_HOME/ndk-build --version; # test
 
 ## Instalando Bun (Um gerenciador de pacotes universal)
 ```sh
-sudo curl -fsSL https://bun.sh/install | bash # for macOS, Linux, and WSL
+sudo curl -fsSL https://bun.sh/install | bash -s "bun-v1.1.13";
 source ~/.bashrc;
 bun -v; # test
 ```
